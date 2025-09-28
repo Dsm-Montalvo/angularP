@@ -11,7 +11,7 @@ export class DataBindingPageComponent {
 
   //Definir variables de las tareas
 
-  title = 'Data Binding';
+  title = 'Data Binding age';
   text_field = signal('');
   messageError = signal('');
   tasks = signal<IndexTask[]>([]);
