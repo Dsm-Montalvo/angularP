@@ -5,6 +5,7 @@ import { StructuralDirectivesComponent } from './pages/structural-directives/str
 import { AttributeDirectivesPageComponent } from './pages/attribute-directives-page/attribute-directives-page.component';
 import { DataBindingPageComponent } from './pages/data-binding-page/data-binding-page.component';
 import { ServicePageComponent } from './pages/service-page/service-page.component';
+import { PipesPagesComponent } from './pages/pipes-page/pipes-page.component';
 
 export const routes: Routes = [
 
@@ -25,6 +26,9 @@ export const routes: Routes = [
 },
 {
   path: 'service', component: ServicePageComponent
+},
+{
+  path: 'pipes', component: PipesPagesComponent
 },
 {
   path: '**', redirectTo: 'home', pathMatch: 'full'
